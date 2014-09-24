@@ -3,10 +3,9 @@
 	if($_POST['SubmitLogin'])static_login($_POST['EmailLogin'],$_POST['PasswordLogin']);
 	}
 ?>
-<div class="container">
 	<div class="row clearfix">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-12">
 				<form role="form" method="post">
 					<div class="form-group">
 						<label for="InputEmailLogin">Email address</label>
@@ -21,4 +20,3 @@
 			</div>
 		</div>		
 	</div>
-</div>

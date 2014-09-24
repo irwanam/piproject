@@ -2,7 +2,7 @@
 	include("./inc/function-lib.php");
 	include("./inc/config.php");
 	session_start();
-	if(!isset($_SESSION['userid'])){
+	if(!isset($_SESSION['idusers'])){
 		$pageviews['userstats']="login.php";
 	}
 	else {
